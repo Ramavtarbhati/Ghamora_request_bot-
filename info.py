@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ['22638904'])
 API_HASH = environ['b67e3bc7d52244ff637b1ce1c61a2f1a']
-BOT_TOKEN = environ['5914577108:AAEWVG1HbH2gUHRFx8kHKaA4kNcmK0fJLjI']
+BOT_TOKEN = environ['5974444041:AAEiC6wOZSh2HBLnZ180EyyJOjuoMFisFVw']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -39,7 +39,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 FILDLT_CNL = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('FILDLT_CNL', '1001861016236').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('mongodb+srv://Ramavtar:<password>@cluster0.9storls.mongodb.net/?retryWrites=true&w=majority', "")
+DATABASE_URI = environ.get('DATABASE_URL', "mongodb+srv://Ramavtar:ramavtar123bhati@cluster0.nfwuias.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Ghamora_request_bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
