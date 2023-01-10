@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ['22638904'])
 API_HASH = environ['b67e3bc7d52244ff637b1ce1c61a2f1a']
-BOT_TOKEN = environ['5974444041:AAEiC6wOZSh2HBLnZ180EyyJOjuoMFisFVw']
+BOT_TOKEN = environ['5975220371:AAGAHeXBeArCThKj4YV2AEK50xOjBcBY65U']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -40,7 +40,7 @@ FILDLT_CNL = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URL', "mongodb+srv://Ramavtar:ramavtar123bhati@cluster0.nfwuias.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Ghamora_request_bot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "ramavtar")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
@@ -50,7 +50,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'PapaSupport')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001809078666))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001644413057))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001861016236))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/hindimovieall12')
 
